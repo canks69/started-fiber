@@ -1,8 +1,8 @@
 package author
 
 import (
-	"go-clean-architecture/internal/domain"
 	"gorm.io/gorm"
+	"started-fiber/internal/domain"
 )
 
 type mysqlAuthorRepository struct {

@@ -3,11 +3,11 @@ package article
 import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
-	"go-clean-architecture/internal/domain"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	gormLogger "gorm.io/gorm/logger"
 	"regexp"
+	"started-fiber/internal/domain"
 	"testing"
 	"time"
 )

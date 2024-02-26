@@ -2,10 +2,10 @@ package infrastructure
 
 import (
 	"github.com/glebarez/sqlite"
-	"go-clean-architecture/internal/domain"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	gormLogger "gorm.io/gorm/logger"
+	"started-fiber/internal/domain"
 )
 
 var db *gorm.DB

@@ -2,9 +2,9 @@ package article
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"go-clean-architecture/internal/domain"
-	"go-clean-architecture/internal/middleware/validation"
-	"go-clean-architecture/internal/utilities"
+	"started-fiber/internal/domain"
+	"started-fiber/internal/middleware/validation"
+	"started-fiber/internal/utilities"
 	"strconv"
 )
 

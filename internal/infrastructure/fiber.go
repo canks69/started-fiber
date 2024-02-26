@@ -7,9 +7,9 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/etag"
 	recover2 "github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/gofiber/fiber/v2/middleware/requestid"
-	"go-clean-architecture/internal/article"
-	"go-clean-architecture/internal/docs"
-	"go-clean-architecture/pkg/xlogger"
+	"started-fiber/internal/article"
+	"started-fiber/internal/docs"
+	"started-fiber/pkg/xlogger"
 )
 
 func Run() {

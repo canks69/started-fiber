@@ -3,7 +3,7 @@ package validation
 import (
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
-	"go-clean-architecture/internal/domain"
+	"started-fiber/internal/domain"
 )
 
 func New[V any]() fiber.Handler {

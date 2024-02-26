@@ -2,7 +2,7 @@ package mocks
 
 import (
 	"github.com/stretchr/testify/mock"
-	"go-clean-architecture/internal/domain"
+	"started-fiber/internal/domain"
 )
 
 type ArticleRepository struct {

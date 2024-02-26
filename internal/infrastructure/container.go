@@ -2,11 +2,11 @@ package infrastructure
 
 import (
 	"github.com/caarlos0/env/v10"
-	"go-clean-architecture/internal/article"
-	"go-clean-architecture/internal/author"
-	"go-clean-architecture/internal/config"
-	"go-clean-architecture/internal/domain"
-	"go-clean-architecture/pkg/xlogger"
+	"started-fiber/internal/article"
+	"started-fiber/internal/author"
+	"started-fiber/internal/config"
+	"started-fiber/internal/domain"
+	"started-fiber/pkg/xlogger"
 )
 
 var (

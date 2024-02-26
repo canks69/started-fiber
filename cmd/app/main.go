@@ -1,6 +1,9 @@
 package main
 
-import "go-clean-architecture/internal/infrastructure"
+import (
+	_ "github.com/joho/godotenv/autoload"
+	"started-fiber/internal/infrastructure"
+)
 
 // @title			Article API Documentation
 // @version		1.0

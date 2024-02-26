@@ -3,8 +3,8 @@ package article
 import (
 	"errors"
 	"github.com/gofiber/fiber/v2"
-	"go-clean-architecture/internal/domain"
 	"gorm.io/gorm"
+	"started-fiber/internal/domain"
 )
 
 type articleService struct {

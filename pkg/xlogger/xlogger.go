@@ -2,8 +2,8 @@ package xlogger
 
 import (
 	"github.com/rs/zerolog"
-	"go-clean-architecture/internal/config"
 	"os"
+	"started-fiber/internal/config"
 	"sync"
 	"time"
 )

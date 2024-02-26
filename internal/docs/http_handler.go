@@ -4,7 +4,7 @@ import (
 	"github.com/gofiber/contrib/swagger"
 	"github.com/gofiber/fiber/v2"
 	"github.com/swaggo/swag"
-	"go-clean-architecture/docs"
+	"started-fiber/docs"
 )
 
 type HttpDocsHandler struct{}

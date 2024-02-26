@@ -3,7 +3,7 @@ package infrastructure
 import (
 	"errors"
 	"github.com/gofiber/fiber/v2"
-	"go-clean-architecture/internal/domain"
+	"started-fiber/internal/domain"
 )
 
 func defaultErrorHandler(c *fiber.Ctx, err error) error {

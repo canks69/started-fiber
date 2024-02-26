@@ -2,9 +2,9 @@ package article
 
 import (
 	"github.com/stretchr/testify/assert"
-	"go-clean-architecture/internal/domain"
-	"go-clean-architecture/mocks"
 	"gorm.io/gorm"
+	"started-fiber/internal/domain"
+	"started-fiber/mocks"
 	"testing"
 )
 

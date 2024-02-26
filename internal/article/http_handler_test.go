@@ -7,10 +7,10 @@ import (
 	"github.com/go-faker/faker/v4"
 	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
-	"go-clean-architecture/internal/domain"
-	"go-clean-architecture/mocks"
 	"io"
 	"net/http/httptest"
+	"started-fiber/internal/domain"
+	"started-fiber/mocks"
 	"strconv"
 	"testing"
 )
